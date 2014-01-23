@@ -36,6 +36,7 @@
     NSLog(@"A at test_branch");
     NSLog(@"golf at add label xib");
     NSLog(@"golf at test conflig");
+    NSLog(@"AAA");
 }
 
 -(IBAction)sliderChangeValue:(id)sender
