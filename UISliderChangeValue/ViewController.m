@@ -34,6 +34,7 @@
     
     NSLog(@"golf at test_branch");
     NSLog(@"A at test_branch");
+    NSLog(@"golf at add label xib");
     
 }
 
