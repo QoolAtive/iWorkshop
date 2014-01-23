@@ -41,12 +41,15 @@
 
     
     NSLog(@"golf test branch conf");
-
+    
     NSLog(@"A Edit");
     
     alabel.text = @"555555";
     
 
+    NSLog(@"golf test no sync branch");
+
+    
 }
 
 -(IBAction)sliderChangeValue:(id)sender
