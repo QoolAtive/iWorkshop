@@ -31,6 +31,8 @@
     NSString *strCurrentValue = [[NSString alloc] initWithFormat:@"%1.2f",sli.value];
     lblOutput.text = strCurrentValue;
     // Do any additional setup after loading the view from its nib.
+    
+    NSLog(@"golf at test_branch");
 }
 
 -(IBAction)sliderChangeValue:(id)sender
