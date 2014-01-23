@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-@synthesize lblOutput,sli;
+@synthesize lblOutput,sli,alabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,12 +31,17 @@
     NSString *strCurrentValue = [[NSString alloc] initWithFormat:@"%1.2f",sli.value];
     lblOutput.text = strCurrentValue;
     // Do any additional setup after loading the view from its nib.
-    
+    NSLog(@"A Edit 2");
     NSLog(@"golf at test_branch");
     NSLog(@"A at test_branch");
     NSLog(@"golf at add label xib");
     NSLog(@"golf at test conflig");
     NSLog(@"AAA");
+    
+    NSLog(@"A Edit");
+    
+    alabel.text = @"555555";
+    
 }
 
 -(IBAction)sliderChangeValue:(id)sender

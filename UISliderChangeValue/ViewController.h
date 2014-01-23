@@ -12,10 +12,13 @@
 {
     UILabel *lblOutput;
     UISlider *sli;
+    UILabel *alabel;
 }
 
 @property (nonatomic,retain) IBOutlet UILabel *lblOutput;
 @property (nonatomic,retain) IBOutlet UISlider *sli;
+
+@property (nonatomic,retain) IBOutlet UILabel *alabel;
 
 -(IBAction)sliderChangeValue:(id)sender;
 
