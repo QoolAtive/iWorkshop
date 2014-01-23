@@ -40,6 +40,9 @@
     
     
     NSLog(@"golf test branch conf");
+    NSLog(@"golf test no sync branch");
+
+    
 }
 
 -(IBAction)sliderChangeValue:(id)sender
