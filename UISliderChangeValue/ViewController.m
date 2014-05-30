@@ -11,7 +11,8 @@
 @interface ViewController ()
 
 @end
-
+// test
+//teas
 @implementation ViewController
 @synthesize lblOutput,sli,alabel;
 
